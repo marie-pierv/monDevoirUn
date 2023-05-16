@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    background-color: rgb(4, 4, 46);
+    justify-content: center;
+    align-items: center; 
+}
+
+.cardcentral {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 18, 79);
+    width: 30%;
+    margin: auto;
+    padding: 30px 30px 0px 30px;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;  
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+p {
+    color: white;
+    font-size: 1em;
+    text-align: left;
+}
+
+.ligneText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-color: white;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+h2 {
+    color: aqua;
+    font-size: 1.1em;
+}
+
+.imageAva {
+    width: 10%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 20px 20px 20px 0;
+}
+
+.sousLaLigne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
