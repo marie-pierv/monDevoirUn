@@ -1,4 +1,22 @@
-:root {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  background-color: rgb(19, 19, 96);
+  min-height: 100vh;
+}
+
+
+/*:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -67,3 +85,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
